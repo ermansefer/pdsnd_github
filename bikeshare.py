@@ -6,6 +6,8 @@ from pprint import pprint # use to print data structures like dictionaries in
 
 print('I am learning version control')
 
+print('It is really fun to learn version control')
+
 def print_first_point(filename):
     """
     This function prints and returns the first data point (second row) from
