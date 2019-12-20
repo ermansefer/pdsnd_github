@@ -4,6 +4,10 @@ from datetime import datetime # operations to parse dates
 from pprint import pprint # use to print data structures like dictionaries in
                           # a nicer way than the base print function.
 
+print('I am learning version control')
+
+print('It is really fun to learn version control')
+
 def print_first_point(filename):
     """
     This function prints and returns the first data point (second row) from
@@ -37,6 +41,7 @@ data_files = ['./data/NYC-CitiBike-2016.csv',
 
 # print the first trip from each file, store in dictionary
 example_trips = {}
+
 for data_file in data_files:
     city, first_trip = print_first_point(data_file)
     example_trips[city] = first_trip
